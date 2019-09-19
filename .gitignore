@@ -24,3 +24,9 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 /build/
+
+# log
+/log
+
+# mac directory
+.DS_Store

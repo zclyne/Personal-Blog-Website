@@ -49,8 +49,9 @@ public class TypeController {
             result.rejectValue("name", "nameError", "该分类已经存在");
         }
         if (result.hasErrors()) { // 校验未通过
-            return "admin/types-input";
+            return "admin/types/input";
         }
+        System.out.println("Inside post type");
         Type t = typeService.saveType(type);
         if (t == null) { // 保存失败
             attributes.addFlashAttribute("message", "新增失败");
