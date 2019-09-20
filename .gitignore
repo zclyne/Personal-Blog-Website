@@ -26,7 +26,7 @@ HELP.md
 /build/
 
 # log
-/log
+/log/
 
 # mac directory
 .DS_Store

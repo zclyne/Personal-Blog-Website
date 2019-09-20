@@ -179,3 +179,7 @@ body {
 .m-teal {
     color: #00B5AD !important;
 }
+
+.about-me-img {
+    margin: 0 auto !important;
+}
