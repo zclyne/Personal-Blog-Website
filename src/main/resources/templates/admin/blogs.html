@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--使用cdn导入semantic-ui-->
     <title>Blog Management</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="../../static/css/me.css">
 </head>
 <body>
@@ -86,13 +86,13 @@
                 <table th:fragment="blogList" class="ui celled table">
                     <thead>
                     <tr class="center aligned">
-                        <th></th>
-                        <th>Title</th>
-                        <th>Type</th>
-                        <th>Recommend</th>
-                        <th>Status</th>
-                        <th>Update Time</th>
-                        <th>Operation</th>
+                        <th class="one wide">No</th>
+                        <th class="five wide">Title</th>
+                        <th class="one wide">Type</th>
+                        <th class="one wide">Recommend</th>
+                        <th class="two wide">Status</th>
+                        <th class="two wide">Update Time</th>
+                        <th class="four wide">Operation</th>
                     </tr>
                     </thead>
                     <tbody>
