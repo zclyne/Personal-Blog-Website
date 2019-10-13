@@ -7,7 +7,7 @@
     <!--移动端缩放设置-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--使用cdn导入semantic-ui-->
-    <title>标签</title>
+    <title>Tags</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
     <!--必须使用th:href。@{}表示context路径，自动导到/resources，且不用加/static-->
     <link rel="stylesheet" href="../static/css/me.css">
@@ -46,10 +46,10 @@
             <div class="ui segment top attached">
                 <div class="ui middle aligned two column grid">
                     <div class="column">
-                        <h3 class="ui header teal">标签</h3>
+                        <h3 class="ui header teal">Tags</h3>
                     </div>
                     <div class="column right aligned">
-                        共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${#arrays.length(tags)}">14</h2> 个
+                        <h2 class="ui orange header m-inline-block m-text-thin" th:text="${#arrays.length(tags)}">14</h2> Tags
                     </div>
                 </div>
             </div>
